@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    $to = 'nicholasbeghetto991@gmail.com';  // Inserisci l'email del destinatario
+    $to = 'sasasamu970@gmail.com';  // Inserisci l'email del destinatario
     $subject = 'Messaggio dal sito DeiGamersInFamiglia';
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
